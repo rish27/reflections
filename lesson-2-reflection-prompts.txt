@@ -10,13 +10,23 @@ A.	Staging Area is temporary path to tracked files which can act as buffer to fo
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+A.	As per answer above multiple changes can be stored in staging area before commit. We can take breaks in between add files but all added files go in batch for commit. And we can check at that times.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+A.	If we are working on alternative solutions to some common problem that are under development mode we can use Branches.	
+
 How do the diagrams help you visualize the branch structure?
+
+A.	The representations are short forms for lot of information.So complex concepts can be explained much easier.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+A.	The representation is such that it represents a directed graph where it points to its ancestors.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+A. 	We save time on Git automatic merging. But Git manual merging will be likely more thorough and much more time taking each time we are merging we wwill have to check all the changes made in commits and we might also have to check both branch code which can be avoided easily.
